@@ -132,7 +132,7 @@ const App = () => {
       ) : (
       <ul>
         {team.map((fighter) => (
-          <div key={fighter}>
+          <div key={fighter.id}>
             <img src={fighter.img} alt="" />
             <li>Name: {fighter.name}</li>
             <li>Price: {fighter.price}</li>
